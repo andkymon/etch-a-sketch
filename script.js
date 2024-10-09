@@ -17,10 +17,11 @@ btn.addEventListener("click", btnClick);
 
 function btnClick() {
     let choice = prompt("Choose a grid size (1-100):")
-    if (choice > 0 && choice < 101 && Number.isInteger(choice)) {
+    if (choice > 0 && choice < 101 && Number.isInteger(Number(choice))) {
         changeSize(choice);
     } else if (choice != null) {
         alert("Invalid input!");
+        console.log(choice);
     }
 }
 
