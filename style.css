@@ -23,3 +23,13 @@ body {
     border: 25px solid gray;
     border-radius: 16px;
 }
+
+#sizeChanger {
+    height: 100px;
+    width: 200px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
