@@ -7,18 +7,19 @@ html, body {
 }
 
 body {
-    background-color: cadetblue;
+    background-color: black;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #container {   
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
+    height: 800px;
+    width: 800px;
     background-color: white;
-    border: 50px solid pink;
+    border: 25px solid gray;
     border-radius: 16px;
 }
